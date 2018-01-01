@@ -1,0 +1,21 @@
+.header {
+    text-decoration: underline;
+    text-align: center;
+    font-size:40px;
+}
+.atom {
+    text-align: center;
+}
+.shadow {
+    background-color: #333333;
+    position: relative;
+    left: 45%;
+    width: 200px;
+    height: 13px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 13px #333333;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
