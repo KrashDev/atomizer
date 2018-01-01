@@ -1,20 +1,36 @@
 .header {
-    text-decoration: underline;
+    position: relative;
+    left: 43%;
+    border-bottom: 3px solid #666;
+    width:15%;
     text-align: center;
     font-size:40px;
 }
 .atom {
+    position:relative;
     text-align: center;
+    animation:bob 2s ease-in-out infinite;
+}
+@keyframes bob {
+    0% {top:0px;}
+    50% {top:20px;}
+    100% {top:0px;}
 }
 .shadow {
     background-color: #333333;
     position: relative;
     left: 45%;
-    width: 200px;
+    width: 150px;
     height: 13px;
     border-radius: 50%;
     box-shadow: 3px 3px 10px 13px #333333;
     text-align: center;
+    animation:shadow 2s ease-in-out infinite;
+}
+@keyframes shadow {
+    0% {}
+    50% {left:43%; width:200px;}
+    100% {}
 }
 footer {
     text-align: center;
