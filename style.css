@@ -11,6 +11,11 @@
     text-align: center;
     animation:bob 2s ease-in-out infinite;
 }
+.atom img {
+    position:absolute;
+    top:25%;
+    left:50%;
+}
 @keyframes bob {
     0% {top:0px;}
     50% {top:20px;}
